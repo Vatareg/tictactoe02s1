@@ -1,6 +1,7 @@
 package ru.ah;
 
 public class Robot implements Compit{
+
     private int maxRun;
     private int maxJump;
     public Robot(int maxRun, int maxJump) {

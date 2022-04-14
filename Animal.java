@@ -5,6 +5,7 @@ public class Animal {
     private final int age;
     public Animal(String name, int age) {
         this.name = name;
+
         this.age = age;
     }
     protected String animalInfo(){

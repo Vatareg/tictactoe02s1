@@ -7,6 +7,7 @@ public class Human implements Compit{
     public Human(int maxRun, int maxJump) {
         this.maxRun = maxRun;
         this.maxJump = maxJump;
+
     }
     public Human(){this(20, 20);};
 
