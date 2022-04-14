@@ -5,8 +5,6 @@ public class Runroud implements Stop{
     public Runroud(int dist){
         this.dist = dist;
     }
-
-
     @Override
     public boolean goGo(Compit i) {
         return i.run(dist);
