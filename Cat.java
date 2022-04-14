@@ -4,6 +4,7 @@ public class Cat implements Compit{
     private int maxRun;
     private int maxJump;
 
+
     public Cat(int maxRun, int maxJump) {
         this.maxRun = maxRun;
         this.maxJump = maxJump;

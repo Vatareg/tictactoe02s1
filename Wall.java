@@ -1,6 +1,7 @@
 package ru.ah;
 
 public class Wall implements Stop{
+    
     private int up;
     public Wall(int up) {
 
