@@ -7,7 +7,6 @@ public class Cat implements Compit{
     public Cat(int maxRun, int maxJump) {
         this.maxRun = maxRun;
         this.maxJump = maxJump;
-
     }
     public Cat() {this(10, 10);}
     @Override

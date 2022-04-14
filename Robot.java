@@ -3,14 +3,11 @@ package ru.ah;
 public class Robot implements Compit{
     private int maxRun;
     private int maxJump;
-
     public Robot(int maxRun, int maxJump) {
-
         this.maxRun = maxRun;
         this.maxJump = maxJump;
     }
     public Robot(){this(20, 20);};
-
 
     @Override
     public boolean run(int dist){

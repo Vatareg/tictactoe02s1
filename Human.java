@@ -5,12 +5,10 @@ public class Human implements Compit{
     private int maxJump;
 
     public Human(int maxRun, int maxJump) {
-
         this.maxRun = maxRun;
         this.maxJump = maxJump;
     }
     public Human(){this(20, 20);};
-
 
     @Override
     public boolean run(int dist){
